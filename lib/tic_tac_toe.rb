@@ -124,7 +124,7 @@ def play(board)
     turn(board)
   end
 
-  if won?(board) == true
+  if won?(board) != nil
     puts "Congratulations #{winner(board)}!"
   else draw?(board) == true
     puts "Cat's Game!"
