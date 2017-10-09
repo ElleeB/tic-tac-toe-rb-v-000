@@ -120,7 +120,8 @@ def winner(board)
 end
 
 def play(board)
-  until over?(board) == true
+  until over?(board) == true ||
+    won?(board) != nil
     turn(board)
   end
 
