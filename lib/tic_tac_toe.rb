@@ -129,4 +129,3 @@ if won?(board) != nil
 elsif draw?(board) == true
     puts "Cat's Game!"
 end
-end
